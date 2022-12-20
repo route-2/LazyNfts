@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Fragment } from 'react'
-import {Disclosure,Menu, Transition } from '@headlessui/react'
+
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import useRouter from 'next/router'
 
@@ -18,8 +18,7 @@ const Navbar = () => {
       <div>
         <h1> NAVBAR </h1>
         {navigation.map((item) => {
-            const router = useRouter();
-            const isActive = router.asPath === item.href;
+           
         return (
             <Link key = {item.name} href = {item.href}> {item.name} </Link>
         )
