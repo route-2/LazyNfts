@@ -2,7 +2,7 @@
 
 const MyNfts = () => {
     return (
-        <div>
+        <div >
         <h1>My NFTs</h1>
         </div>
     )
