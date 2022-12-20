@@ -2,7 +2,7 @@
 
 const MyNfts = () => {
     return (
-        <div >
+        <div className="bg-sky-400">
         <h1>My NFTs</h1>
         </div>
     )
